@@ -1,0 +1,24 @@
+body
+{
+	background-image: url("123.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+<!-- This is a comment tr:nth-child(even) { -->
+<!--    background-color: #dddddd;-->
+<!--}-->
