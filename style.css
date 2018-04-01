@@ -1,24 +1,63 @@
 body
 {
-	background-image: url("123.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
+	/*background-image: url("123.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100%;*/
+	/*background-attachment: fixed;*/
 	text-align: center;
 }
 
-table {
+table#hero {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-td, th {
+table#hero td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 10px;
 }
 
-<!-- This is a comment tr:nth-child(even) { -->
-<!--    background-color: #dddddd;-->
-<!--}-->
+table#specialarena {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+table#specialarena th, tr, td {
+    text-align: center;
+    border: 1px solid #b72121;
+    padding: 10px;
+}
+
+
+
+
+
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
